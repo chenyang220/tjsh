@@ -1,0 +1,2 @@
+[24-Mar-2021 16:02:06 Asia/Shanghai] PHP Warning:  file_get_contents(): Unable to find the wrapper &quot;https&quot; - did you forget to enable it when you configured PHP? in D:\phpStudy\PHPTutorial\WWW\tjsh\shop_admin\messages\I18N.php on line 12
+[24-Mar-2021 16:02:06 Asia/Shanghai] PHP Warning:  file_get_contents(https://www.sunhopego.cn/?_system_language_=1): failed to open stream: No error in D:\phpStudy\PHPTutorial\WWW\tjsh\shop_admin\messages\I18N.php on line 12
