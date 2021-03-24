@@ -1,0 +1,755 @@
+@charset "utf-8";
+
+.header-l a i {
+    display: inline-block;
+    width: 0.409rem;
+    height: 0.75rem;
+    background: url(../images/bbc-bg45.png) no-repeat center;
+    background-size: cover;
+}
+.statetIconBox{
+    width:100%;
+
+}
+.statetIcon{
+    background: url(../images/new/order-bg.png)no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 4rem;
+    padding: 0.8rem 0;
+    box-sizing: border-box;
+}
+.underway{
+    height: 3rem;
+    line-height: 2.5rem!important;
+    font-size: 0.68rem
+
+}
+.statetIconHint{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 0.3rem;
+        text-align: center;
+    padding: 10px 0;
+    overflow: hidden;
+}
+.statetIconHint>p{
+    font-size: 0.6rem;
+    height:60px;
+    line-height: 60px;
+
+}
+.revocationBnBox{
+    width: 100%;
+    text-align: right;
+}
+.revocationBn{
+    right: 10px;
+    width: 83px;
+    height: 29px;
+    font-size: 0.6rem;
+    border-radius: 4px;
+    outline: none;
+    background-color: #fff;
+    margin: 5px 10px 15px 0px;
+    border: 1px solid #4d9e9c;
+    color: #4d9e9c;
+}
+
+.scheduleBox{
+    width: 100%;
+border-bottom:1px solid #fff;
+
+}
+.scheduleHd{
+    height: 2rem;
+    line-height:2rem;
+    font-size:0.68rem;
+    padding-left:10px;
+    background-color: #fff;
+
+}
+.stepBox{
+    font-size: 0;
+}
+.stepSon{
+    width: 32.7%;
+    position: relative;
+    text-align: center;
+    padding: 0.5rem 0 0.3rem;
+    display: inline-block;
+        vertical-align: top;
+}
+.defaultFlow{
+    background-color: #bbb!important;
+    
+}
+.defaultFlowP{
+    color:#bbb;
+        height: 1.3rem!important;
+    line-height: 1.3rem!important;
+}
+.SpCircle{
+    position: relative;
+    display: inline-block;
+    width:0.85rem;
+    height: 0.85rem;
+    background-color: #007572;
+    border-radius: 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.3rem;
+    z-index: 9;
+}
+.SpCircle>img{
+    position: absolute;
+    left: 51%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 0.4rem;
+    height: 0.4rem;
+}
+.SpLine{
+    position: absolute;
+    top: 0.95rem;
+    left: -47%;
+    width: 93%;
+    height: 2px;
+    background-color: #007572;
+    z-index: 3
+}
+.StP{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.65rem;
+
+}
+.StTime{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.55rem;
+    color:#666;
+}
+
+.nctouch-order-item-con .goods-subtotal .goods-price{
+    color:#000;
+    margin-top: 0.5rem;
+}
+.scheduleMe{
+    background-color: #fff;
+    padding: 0.7rem 0.4rem 2rem 0.4rem;
+}
+.scheduleMe>li{
+    height: 1rem;
+    line-height: 1rem;
+}
+.scheduleMe>li>p{
+    display: inline-block;
+    color:#666;
+    font-size: 0.6rem;
+}
+.goods-name{
+        overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+footer{
+    width: 100%;
+    height: 2rem;
+    font-size: 0;
+    margin-top:0rem;
+}
+.footContact{
+    display: inline-block;
+    width: 50%;
+    height: 2rem;
+    background-color: #007572;
+
+    text-align:center;
+}
+.footContact>img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0.4rem 0.3rem;
+}
+.footContact>p{
+    display: inline-block;
+    font-size: 0.68rem;
+    color: #fff;
+    height: 2rem;
+    line-height: 2rem;
+}
+.ftCtR{
+    background-color: #f29600;
+}
+/*弹窗*/
+.timeSelectBox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    /* height: 100%; */
+    
+    background-color: rgba(0, 0, 0, 0.43137254901960786);;
+    text-align: center;
+    z-index: 10;
+}
+.revocationAlert {
+    width: 85%;
+    /*height: 262px;*/
+    background-color: #fff;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    padding: 35px 0;
+    box-sizing: border-box;
+    text-align: center;
+    border-right: 3px;
+}
+.revocationAlert>p {
+    display: inline-block;
+    width: 75%;
+    line-height: 1.2rem;
+    font-size: 0.68rem;
+    /*font-weight: 600;*/
+}
+.RnBnBox {
+    margin-top: 25px;
+    margin-top: 25px;
+}
+
+.RnBnBox>button:last-child {
+    margin-right: 0;
+}
+
+.RnBnBox>button {
+    /*width: 125px;*/
+font-size: 0.6rem;
+    padding: 5px 40px;
+    background-color: #017572;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    display: inline-block;
+    margin-right: 3%;
+}
+.RnCancelBn {
+    background-color: #d0d0d0!important;
+}
+
+
+
+/*处理完成*/
+.EndStTime{
+    display: none;
+}
+.accomplish{
+ font-size: 0.68rem;
+}
+.statetIcon>p{
+    color:#fff;
+    line-height: 1.3rem;
+}
+.accomplishTime{
+    font-size: 0.6rem;
+}
+.orderAmountBox{
+    width: 100%;
+    text-align: left;
+}
+.orderAmount{
+    color: #666;
+    height: 3rem;
+    margin-left:10px;
+    line-height: 3rem;
+    font-size: 0.68rem;
+}
+.orderAmount>span{
+    color:#000;
+    font-size: 0.7rem;
+    /*font-weight: 600;*/
+}
+
+/*售后列表*/
+.afterSaleList{
+  margin-top:2rem;
+}
+.storeIcon{
+    display: inline-block;
+    width: 0.9rem;
+    height: 0.78rem;
+    vertical-align: middle;
+    background: url(../images/afterSale_03.png) no-repeat center;
+    background-size: cover;
+
+}
+.storeBox{
+    width: 100%;
+    background-color: #fff;
+    display: block;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+.arrowsR{
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.6rem;
+    background: url(../images/bbc-bg45.png) no-repeat center;
+    vertical-align: middle;
+    background-size: cover;
+    transform: rotate(180deg);
+    margin-left: 5px;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.storeName{
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.68rem;
+    padding-left: 10px;
+    color:#676767;
+    background-color: #fff;
+    display: inline-block;
+}
+.statesAchieve{
+    display: inline-block;
+    height:1.8rem;
+    line-height: 1.8rem;
+    font-size: 0.68rem;
+    color:#4d9e9c;
+
+}
+.statesAchieve>i{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.75rem;
+    background: url(../images/afterSale_07.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-right: 10px;
+
+}
+
+.achieveBn{
+    right: 10px;
+    width: 83px;
+    height: 29px;
+    font-size: 0.6rem;
+    border-radius: 4px;
+    outline: none;
+    float: right;
+    background-color: #f3f5f7;
+    margin: 5px 0px 15px 0px;
+    border: 1px solid #4d9e9c;
+    color: #4d9e9c;
+}
+.return-tips{
+    text-align: left;
+
+}
+.StInHand{
+    color:#f29a0a;
+}
+.StInHand>i{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.75rem;
+    background: url(../images/afterSale_10.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-right: 10px;
+}
+.StShut{
+    color:#dcdcdc;
+}
+.StShut>i{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.75rem;
+    background: url(../images/afterSale_13.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-right: 10px;
+}
+    /*发货*/
+
+.statetShipments{
+font-size: 0.68rem;
+
+}
+.ShippingCountdown{
+font-size: 0.6rem;
+}
+.ShippingCountdown>i{
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.75rem;
+    background: url(../images/indent_03.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-top: -0.2rem;
+    margin-right: 10px;
+}
+/*申请售后*/
+.afterSaleGsBox{
+    margin-top:2rem;
+    background-color:#fff;
+    padding-top:0.5rem;
+}
+.afterSaleCause, .remarkBox{
+    border-bottom:1px solid #d6d2d2;
+}
+.afterSaleCause>p, .remarkBox>p{
+    display: inline-block;
+    font-size: 0.68rem;
+    color:#000;
+    height:55px;
+    line-height: 55px;
+    margin-left: 10px;
+}
+.selectCause{
+    color: #999!important;
+    float: right;
+    margin-right: 10px;
+}
+.selectCause>i{
+    display: inline-block;
+    float: right;
+    margin-top: 0.9rem;
+    width: 0.3rem;
+    height: 0.6rem;
+    background: url(../images/bbc-bg45.png) no-repeat center;
+    vertical-align: middle;
+    background-size: cover;
+    transform: rotate(180deg);
+    margin-left: 10px;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.remarkBox>textarea
+{
+    position: relative;
+    vertical-align: middle;
+    border: none;
+    font-size: 0.68rem;
+    resize: none;
+}
+.afterSaleBn{
+    display: inline-block;
+    width: 90%;
+    margin: 0 5%;
+    font-size: 0.681rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fffefe;
+    background: #007572;
+    border-radius: 0.217rem;
+    border: none;
+    outline: none;
+    margin-top:80px;
+}
+
+/*弹窗*/
+.afterSaleCauseSelest{
+    text-align: center;
+    padding: 0 10px;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0;
+}
+
+.afterSaleCauseSelest>p{
+    font-size: 0.68rem;
+height:2rem;
+    line-height: 2rem;
+}
+.arSeCeOn{
+    text-align: left;
+}
+.arSeCeOn>p{
+    height:35px;
+    line-height: 35px;
+    font-size: 0.6rem;
+}
+input[type="checkbox"], input[type="radio"] {
+    position: relative;
+    width: 0.75rem;
+    height: 0.75rem;
+    background-color: #F5F5F5;
+    border: 0.05rem solid #CCC;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: middle;
+    float: right;
+    margin-top: 10px;
+}
+input[type="checkbox"]:checked, input[type="radio"]:checked {
+    border-color: #007572;
+    background-color: #007572;
+}
+input[type="checkbox"]:checked:after, input[type="radio"]:checked:after {
+    content: '';
+    position: absolute;
+    left: 0.14rem;
+    top: 0.1rem;
+     border:none;
+     transform: none;
+    display: inline-block;
+    width: 0.45rem;
+    height: 0.45rem;
+    background: url(../images/afterSaleB_05.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.reasonSubmitBn{
+    display: inline-block;
+    width: 90%;
+    margin: 0 5%;
+    font-size: 0.681rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #fffefe;
+    background: #007572;
+    border-radius: 0.217rem;
+    border: none;
+    outline: none;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/*订单详情优化*/
+.optimizeopTimizeBox{
+    /*border:1px solid red;*/
+    text-align: left;
+}
+.optimizeopTimizeBox>p{
+    font-size: 0.7rem;
+    color: #fff;
+    /*border: 1px solid;*/
+    height: 1rem;
+    line-height: 1rem;
+    vertical-align: top;
+}
+.optimizeopTimizeBox>p:first-child{
+    display: inline-block;
+
+}
+.optimizeopTimizeBox>p:last-child{
+    display: inline-block;
+    float: right;
+
+}
+.statetIcon{
+    text-align: left;
+    padding: 0.8rem 0.4rem;
+}
+.statetIcon>p{
+    margin-top:0.3rem;
+}
+.invoiceBox{
+    border-top: 1px solid #d0d0d0;
+}
+.IeHd{
+    background: #fff;
+    height: 2rem;
+    font-size: 0.7rem;
+    line-height: 2rem;
+    padding-left: 0.4rem;
+    border-bottom:1px solid #d0d0d0;
+}
+.IeHd>p{
+    font-size: 0.7rem;
+    display: inline-block;
+}
+.IeHd i{
+    display: inline-block;
+    width: 0.409rem;
+    height: 0.75rem;
+    background: url("../images/bbc-bg45.png") no-repeat center;
+    background-size: cover;
+    float: right;
+    margin: 0.7rem 0.6rem;
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+.overturn{
+    transform: rotate(90deg)!important;
+    -ms-transform: rotate(90deg)!important;
+    -webkit-transform: rotate(90deg)!important;
+    -o-transform: rotate(90deg)!important;
+}
+.corporateMe{
+    padding-bottom: 0.8rem;
+    border-bottom:1px solid #d0d0d0;
+}
+.corporateMe>p{
+    font-size: 0.7rem;
+    height:1.7rem;
+    line-height: 1.7rem;
+    display: inline-block;
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+.corporateMe>dl dt{
+    width: 40%;
+    text-align: right;
+    display: inline-block;
+    font-size: 0.6rem;
+    color:#000000d1;
+}
+.corporateMe>dl dd{
+    display: inline-block;
+    font-size: 0.6rem;
+}
+.URL{
+    height: 1.7rem;
+    line-height: 1.7rem;
+    display: block;
+    color:#3399ff;
+    font-size: 0.6rem;
+    margin-left: 4rem;
+}
+.paymentR{
+    display: inline-block;
+    float: right;
+    font-size: -25px;
+    margin-right: 0.4rem;
+    color:#7e7e7e;
+
+}
+.paymentHd{
+}
+.moreInformation{
+    background-color: #fff;
+    display: none;
+
+}
+.scheduleBox {
+    width: 100%;
+    border-top: 1px solid #d0d0d0;
+    margin-top: 0.5rem;
+}
+.nctouch-order-item-con .goods-block {
+    padding: 0rem 0.4rem 0.2rem;
+
+}
+.nctouch-order-item-con .goods-subtotal .goods-price {
+    color: red;
+    margin-top: 0.2rem;
+}
+.nctouch-order-item-con .goods-subtotal .goods-num{
+    color: #000!important;
+}
+.hintP{
+    color:#898989;
+}
+.costBox{
+    background-color: #fff;
+    padding: 0.2rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+    border-bottom:1px solid #d0d0d0;
+}
+.costBox>dl>dt{
+    display:inline-block;
+    width: 50%;
+    font-size: 0.6rem;
+}
+.costBox>dl>dd{
+    display:inline-block;
+    width: 48%;
+    text-align: right;
+    font-size: 0.6rem;
+}
+.sumCost{
+    color: red;
+}
+.serviceBox {
+    margin-top: 0.7rem;
+    margin-bottom: 0.2rem;
+}
+.scheduleMe {
+    margin-top:0.5rem;
+    display: block;
+    padding: 0.2rem 0.4rem 0.4rem!important;
+    border-top:1px solid #d0d0d0;
+    border-bottom:1px solid #d0d0d0;
+}
+.indentSelect{
+    height:2rem;
+    background-color: #fff;
+    border-top:1px solid #d0d0d0;
+    border-bottom:1px solid #d0d0d0;
+    text-align: right;
+    margin: 1rem 0;
+}
+.indentSelect>button{
+    width: 3.8rem;
+    height: 1.2rem;
+    font-size: 0.6rem;
+    border-radius: 1rem;
+    outline: none;
+    background-color: #fff;
+    margin: 0.42rem 0.4rem;
+    border: 1px solid #d0d0d0;
+    color: #000;
+}
+.optFor{
+
+    border:1px solid red!important;
+    color:red!important;
+}
+.serviceBox {
+    /*margin-top: 20px;*/
+    /*display: inline-block;*/
+    /*font-size: 0;*/
+    /*!* background-color: #007572; *!*/
+    /*border-top-right-radius: 20px;*/
+    /*border-bottom-right-radius: 20px;*/
+    background: -webkit-linear-gradient(left, #3fcbad , #3dc3cc)!important;
+    background: -o-linear-gradient(right, #3fcbad , #3dc3cc)!important;
+    background: -moz-linear-gradient(right, #3fcbad , #3dc3cc)!important;
+    background: linear-gradient(to right, #3fcbad , #3dc3cc)!important;
+}
+.serviceBox>img {
+    width: 1rem!important;
+    height: 0.7rem!important;
+    margin: 0.45rem 0.3rem!important;
+}
+.paymentStatus{
+    display: inline-block;
+    color: red;
+    font-size: 0.6rem;
+    float: right;
+    margin-top: 0.6rem;
+    margin-right: 0.4rem;
+}
+.storeBox{
+    display: block;
+    margin-top: -11px;
+    padding-left:0;
+}
+.storeName {
+    height: 1.9rem;
+    padding-left: 5px;
+
+}

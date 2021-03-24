@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+
+/*订单详情*/
+.expressageH{
+    font-size: 0;
+    text-align: left;
+}
+.expressageState{
+    display: inline-block;
+    padding: 0.3rem 0;
+    vertical-align: middle;
+    width: 79%;
+}
+.expressageState>p{
+    line-height: 1rem
+}
+.EeSeP{
+    color:#007572;
+    font-size: 0.6rem;
+}
+.EeTime{
+    font-size: 0.5rem;
+    color: #d0d0d0;
+}
+.EeIcon{
+    display: inline-block;
+    width: 1rem;
+    height: 0.8rem;
+    background: url(../images/indent_07.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.EeArrowsR{
+    display: inline-block;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 10px;
+    width: 0.3rem;
+    height: 0.6rem;
+    background: url(../images/bbc-bg45.png) no-repeat center;
+    vertical-align: middle;
+    background-size: cover;
+    transform: rotate(180deg);
+    margin-left: 5px;
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.GoodsReceiptBox{
+    text-align: left;
+}
+.locationIcon{
+    display: inline-block;
+    width: 0.9rem;
+    height: 1.1rem;
+    background: url(../images/indent_11.png) no-repeat center;
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.locationUl{
+    width: 86%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.locationUl>li>p{
+    display: inline-block;
+    font-size:0.6rem;
+    line-height: 1rem;
+    color:#6a6a6a;
+}
+.locationMessage{
+    /*border: 1px solid;*/
+    width: 100%;
+    padding-right: 10px;
+}
+.phoneNumber{
+    float: right;
+    margin-right: 10px;
+    line-height: 1.4rem!important;
+}
+.commodityPrices{
+    font-size: 0.6rem;
+    line-height: 1.5rem;
+    color: #d0d0d0;
+
+}
+.commodityPrices>span{
+color: #007572;
+}
+.figureOutBox{
+    width: 100%;
+  text-align: right     ;
+}
+.figureOutBn{
+    right: 10px;
+    width: 83px;
+    height: 29px;
+    font-size: 0.6rem;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f3f5f7;
+    margin: 15px 0px 10px 0px;
+    border: 1px solid #4d9e9c;
+    color: #4d9e9c;
+}
+.serviceBox{
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 0;
+    /*background-color: #007572;*/
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: -webkit-linear-gradient(left, #017b78 , #039490); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(right, #017b78 , #039490); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(right, #017b78 , #039490); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #017b78 , #039490); /* 标准的语法 */
+}
+.serviceBox>img{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin: 0.3rem 0.3rem;
+}
+.serviceBox>p{
+    display: inline-block;
+    font-size: 0.68rem;
+    line-height: 1.7rem;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: #fff;
+}
+.seBxB{
+    background-color: #fff;
+}
+.CopyBn{
+    float: right;
+    width: 63px;
+    height: 25px;
+    font-size: 0.6rem;
+    border-radius: 5px;
+    outline: none;
+    background-color: #fff;
+    margin: 25px 10px 10px 0px;
+    border: 1px solid #d0d0d0;
+    color: #d0d0d0;
+}
