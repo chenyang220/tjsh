@@ -1,0 +1,1656 @@
+@charset "utf-8";
+
+body{
+    background-color: #fff!important;
+}
+.appRegister, .pcRegisterBox{
+    display:none;
+}
+
+/*上传身份证*/
+.iyUgBox {
+    /*display: none;*/
+    border: 1px solid red;
+}
+
+.frontIdentity {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background: url(../images/login/identity_03.png) no-repeat center;
+    background-size: 100%;
+    vertical-align: middle;
+}
+option{
+    color:#000;
+}
+.form-item {
+    position: relative;
+
+}
+
+#form-item {
+    border: none;
+}
+
+#form-item1 {
+    border: none;
+}
+
+.IdentityBox {
+
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.IdentityBox > p {
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    color: #666;
+    text-align: center;
+}
+
+.Identity_p > span {
+    color: #3e9795;
+}
+
+.froutIdentity {
+    position: relative;
+    /*border:1px solid #8ab0d7;*/
+    width: 80%;
+    /*height:5rem;*/
+    margin: auto;
+    padding-top: 10px;
+}
+
+.froutIdentity > img {
+    width: 100%;
+
+}
+
+.froutIdentity > p {
+    color: #3e9795;
+    font-size: 0.7rem;
+    line-height: 1.3rem;
+}
+
+/*.froutIdentity>input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	bottom: 0;
+    }*/
+    .froutIdentity .field {
+        position: absolute;
+        width: 100% !important;
+        height: 100% !important;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        bottom: 0;
+
+    }
+
+    .reverseIdentity {
+        margin-top: 1rem;
+    }
+
+    /*内容*/
+    #oldMemberLogin {
+        display: none;
+    }
+
+    .IyStandard {
+        margin-top: 1rem;
+
+    }
+
+    .IySdTop {
+        position: relative;
+        text-align: left;
+        padding: 0 10px;
+        /*border:1px solid #8ab0d7;*/
+    }
+
+    .IySdTopL {
+        font-size: 0.7rem;
+        line-height: 1.5rem
+    }
+
+    .IySdTopR {
+        position: absolute;
+        top: 0;
+        right: 10px;
+        font-size: 0.6rem;
+        /*border:1px solid #8ab0d7;*/
+        line-height: 1.5rem;
+    }
+
+    .IySdTopR > i {
+        display: inline-block;
+        width: 0.8rem;
+        height: 0.8rem;
+        margin-top: -0.2rem;
+        margin-right: 0.1rem;
+        background: url(../images/login/warning_09.png) no-repeat center;
+        background-size: contain;
+        vertical-align: middle;
+    }
+
+    .IySdConter {
+        height: 4rem;
+        border: none;
+    }
+
+    .IySdConter li {
+        width: 25%;
+        float: left;
+        padding: 0;
+        display: inline-block;
+        text-align: center;
+        margin-top: 0.5rem;
+        border: none;
+    }
+
+    .IySdConter li > img {
+        width: 80%;
+    }
+
+    .correct_p {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+    }
+
+    .error_p {
+        font-size: 0.6rem;
+        line-height: 1.1rem;
+        color: #696060;
+    }
+
+    .correct_p > i {
+        display: inline-block;
+        width: 0.6rem;
+        height: 1rem;
+        margin-right: 0.1rem;
+        background: url(../images/login_01/correct_29.png) no-repeat center;
+        background-size: contain;
+        vertical-align: bottom;
+    }
+
+    .error_p > i {
+        display: inline-block;
+        width: 0.6rem;
+        height: 0.9rem;
+        margin-right: 0.2rem;
+        background: url(../images/login_01/error_22.png) no-repeat center;
+        background-size: contain;
+        vertical-align: bottom;
+    }
+
+    .IyUploadingBn {
+        width: 90%;
+        border-radius: 5px;
+        line-height: 1.8rem;
+        font-size: 0.8rem;
+        background-color: #c69c6d;
+        box-shadow: 0 2px 12px #c69c6d;
+        margin: 2rem auto;
+        display: block;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+
+    /*老会员首次登录*/
+    .portraitIcon {
+        margin-top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .portraitIcon > img {
+        width: 50%;
+    }
+
+    .verifyBox {
+        margin-top: 1rem;
+        border: none;
+        padding: 0 20px;
+    }
+
+    .verifyBox > li {
+        position: relative;
+        /*padding-top: 1rem;*/
+        line-height: 2.5rem;
+        padding: 0;
+        border-bottom: 1px solid #d0d0d0;
+        font-size: 0;
+    }
+
+    .verifyBox > li > i {
+        vertical-align: bottom;
+        margin-bottom: 0.2rem;
+    }
+
+    .verifyBox > li > input {
+        font-size: 0.7rem;
+        margin-left: 0.2rem;
+        width: 60%;
+        line-height: 1.1rem;
+        vertical-align: bottom;
+        outline: none;
+        border: none;
+        margin-bottom: 0.2rem;
+    }
+
+    .IDCardNumber {
+
+    }
+
+    .IDCardNumber > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.1rem;
+        background: url(../images/login_07.png) no-repeat center;
+        background-size: contain;
+        /*vertical-align: bottom;*/
+        /*border: 1px solid red;*/
+    }
+
+    .phoneNumber > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.1rem;
+        background: url(../images/login_10.png) no-repeat center;
+        background-size: contain;
+        /*vertical-align: bottom;*/
+        /*border: 1px solid red;*/
+    }
+
+    .verifyNumber > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.1rem;
+        background: url(../images/login_14.png) no-repeat center;
+        background-size: contain;
+        /*vertical-align: bottom;*/
+        /*border: 1px solid red;*/
+    }
+
+    .mailNumber > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.1rem;
+        background: url(../images/login_17.png) no-repeat center;
+        background-size: contain;
+        /*vertical-align: bottom;*/
+        /*border: 1px solid red;*/
+    }
+
+    .getCodeBn {
+        border-left: 1px solid #d0d0d0;
+        display: inline-block;
+        width: 29%;
+        font-size: 0.6rem;
+        vertical-align: bottom;
+        text-align: center;
+    }
+
+    input[type="checkbox"], input[type="radio"] {
+        position: relative;
+        width: 0.75rem;
+        height: 0.75rem;
+        background-color: #fff;
+        border: 0.05rem solid #CCC;
+        -webkit-border-radius: 50%;
+        border-radius: 0;
+        vertical-align: middle;
+    }
+
+    input[type="checkbox"]:checked, input[type="radio"]:checked {
+        border-color: #ccc;
+        background-color: #fff;
+    }
+
+    input[type="checkbox"]:checked:after, input[type="radio"]:checked:after {
+        content: '';
+        position: absolute;
+        left: 0.1rem;
+        top: 0.13rem;
+        width: 0.5rem;
+        height: 0.2rem;
+        border-left: 0.065rem solid #000;
+        border-bottom: 0.065rem solid #000;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+    .regulations {
+        color: #000;
+        font-size: 0.6rem;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 5px;
+
+    }
+
+    .regulations > span {
+        color: #c69c6d;
+    }
+
+    .FirstLoginBn {
+        width: 90%;
+        border-radius: 9px;
+        line-height: 1.8rem;
+        font-size: 0.8rem;
+        background-color: #c69c6d;
+        margin: 2rem auto;
+        display: block;
+        color: #fff;
+        outline: none;
+        border: none;
+    }
+
+    .password_ul {
+        margin-top: 2rem;
+    }
+
+    /*设置密码*/
+    .password_li {
+        position: relative;
+    }
+
+    .password_li > p {
+        display: inline-block;
+        color: #000;
+        font-size: 0.7rem;
+        vertical-align: bottom;
+        line-height: 1.1rem;
+        margin-bottom: 0.2rem;
+        margin-right: 10px;
+    }
+
+    .passwordConfirm {
+        margin-top: 4rem;
+    }
+
+    .hint_p {
+        position: absolute;
+        bottom: -1.3rem;
+        left: 0;
+        color: red !important;
+        font-size: 0.6rem;
+    }
+
+    /*申请成功*/
+    .header-title {
+        /*border:1px solid red;*/
+    }
+
+    .AnCr_p {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+
+    .application_Center {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .AnCr_p > i {
+
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.5rem;
+        background: url(../images/login-01/correct_29.png) no-repeat center;
+        background-size: contain;
+        vertical-align: bottom;
+        /*border: 1px solid red;*/
+    }
+
+    .AnCr_div {
+        margin-top: 1.5rem;
+    }
+
+    .AnCr_div:nth-child(2) {
+        width: 52%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .AnCr_div > p {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+
+    .AnCr_div > p > span {
+        color: #33bb44;
+    }
+
+    .AnCr_div > img {
+        width: 4rem;
+        height: 4rem;
+        overflow: hidden;
+    }
+
+    .AnCr_hint {
+        color: #666;
+        line-height: 2rem !important;
+        font-size: 0.5rem !important
+    }
+
+    /*优惠顾客资料*/
+    .clientMessageBox {
+        margin-top: 3rem;
+        padding: 0 20px;
+    }
+
+    .bankAploading {
+
+    }
+
+    .bkAg_p {
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+    }
+
+    .bkAg_p > i {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.2rem;
+        /*margin-top: -0.2rem;*/
+        margin-right: 0.3rem;
+        background: url(../images/login/camera_03.png) no-repeat center;
+        background-size: contain;
+        vertical-align: bottom;
+
+    }
+
+    .bankAploading > div {
+        position: relative;
+        width: 5rem;
+        height: 3.1rem;
+        overflow: hidden;
+        margin: 0.7rem auto 0rem 4rem;
+    }
+
+    .bankAploading > div > img {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .bankAploading > div > input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        bottom: 0;
+    }
+
+    .messageBox {
+        border: none;
+
+    }
+
+    .messageBox > li {
+        position: relative;
+        /* padding-top: 1rem; */
+        line-height: 2.5rem;
+        padding: 0;
+        border-bottom: 1px solid #d0d0d0;
+        font-size: 0;
+        /*    border: 1px solid red;*/
+
+    }
+
+    .messageBox > li > p {
+        width: 31%;
+        font-size: 0.7rem;
+        line-height: 1.1rem;
+        /* border: 1px solid red;*/
+        display: inline-block;
+        vertical-align: bottom;
+        margin-bottom: 0.1rem;
+    }
+
+    .messageBox > li > input {
+        font-size: 0.7rem;
+        margin-left: 0.2rem;
+        width: 60%;
+        line-height: 1.1rem;
+        vertical-align: bottom;
+        outline: none;
+        border: none;
+        margin-bottom: 0.2rem;
+    }
+
+    .radioFrame {
+        width: 0.55rem !important;
+        height: 0.55rem !important;
+        vertical-align: bottom !important;
+        top: -0.1rem;
+    }
+
+    .rs_b {
+        color: #000;
+        font-size: 0.6rem;
+        display: inline-block;
+        vertical-align: bottom;
+        margin-left: 0 !important;
+    }
+
+    /*登录*/
+    .loginItBox {
+
+    }
+
+    .loginItBox > li > input {
+        font-size: 0.7rem;
+        margin-left: 0.2rem;
+        width: 80% !important;
+        line-height: 1.1rem;
+        vertical-align: bottom;
+        outline: none;
+        border: none;
+        margin-bottom: 0.2rem;
+    }
+
+    .loginItBox > li > P {
+        bottom: -1.7rem !important;
+        display: none;
+    }
+
+    .userMane > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /* margin-top: -0.2rem; */
+        margin-right: 0.1rem;
+        background: url(../images/login_04.png) no-repeat center;
+        background-size: contain;
+        /* vertical-align: bottom; */
+        /* border: 1px solid red; */
+    }
+
+    .password > i {
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /* margin-top: -0.2rem; */
+        margin-right: 0.1rem;
+        background: url(../images/login/login_06.png) no-repeat center;
+        background-size: contain;
+        /* vertical-align: bottom; */
+        /* border: 1px solid red; */
+    }
+    .passwordIcon{
+        position: relative;
+        top:0.2rem;
+        display: inline-block;
+        width: 1.2rem;
+        height: 1.2rem;
+        /* margin-top: -0.2rem; */
+        margin-right: 0.1rem;
+        background: url(../images/login/login_06.png) no-repeat center;
+        background-size: contain;
+        /* vertical-align: bottom; */
+        /* border: 1px solid red; */
+    }
+
+    .forgetStyle {
+        line-height: 0.9rem;
+        text-align: right;
+        padding: 0 20px;
+
+    }
+
+    .forgetStyle > p {
+        display: inline-block;
+        font-size: 0.6rem;
+        vertical-align: top;
+        color: #666;
+    }
+
+    .forgetStyle > p > span {
+        font-size: 0.5rem;
+    }
+
+    .registerBn {
+        background-color: #fff;
+        color: #000;
+        border: 1px solid #000;
+        margin-top: -1rem;
+    }
+    /*规章弹窗*/
+    .timeSelectBox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        text-align: center;
+        z-index: 999;
+    }
+    .TeStSon{
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        padding:3% 1%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background: #fff;
+        overflow: scroll;
+
+    }
+    .TeStSon_bn{
+        margin: 50px 50px;
+        float: right;
+        padding: 2px 5px;
+        color:#000;
+    }
+    .posts-content span{
+        background-color: #fff!important;
+    }
+
+
+    .teStContent {
+        background-color: #fff;
+        width: 60%;
+    }
+
+    .teStContent {
+        background-color: #fff;
+        width: 80%;
+        display: inline-block;
+        margin-top: 10rem;
+        border-radius: 3px;
+    }
+
+    .teStContent > p {
+        line-height: 1rem;
+        font-size: 0.7rem;
+        color: #000;
+        margin-top: 2rem
+
+    }
+
+    .teStContent > button {
+        width: 75%;
+        margin: 1.5rem auto;
+        border-radius: 5px;
+    }
+
+    /*忘记密码*/
+    .forgetPasspordBox > li .hint_p {
+        top: 1.7rem;
+        display: none;
+
+    }
+
+    /*新会员注册*/
+    .recruitBox {
+        /*border:1px solid red;*/
+    }
+
+    .instructorIcon {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-right: 0.1rem;
+        margin-top: -2px;
+        background: url(../images/login/entrant_06.png) no-repeat center;
+        background-size: contain;
+        vertical-align: middle;
+
+    }
+
+    .form-item > label {
+
+    }
+
+    .form-item .field {
+
+    }
+
+    .scanIcon {
+        display: inline-block;
+        width: 1rem !important;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_03.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+    }
+
+    .hint {
+        font-size: 12px;
+    }
+
+    .clear-btn {
+        right: 5px !important;
+        top: 6px !important;
+    }
+
+    .instructorNuam {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_10.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .IdCardNum {
+        display: inline-block;
+        width: 1.1rem;
+        height: 0.9rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_13.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        background-position: 0rem 0.2rem;
+        /*border: 1px solid red;*/
+    }
+
+    .memberNume {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_16.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .memberGender {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_19.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0.2rem;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .dateOfBirth {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_23.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: 0 0.1rem;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .site {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/entrant_27.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    /*手机端下一步*/
+
+    .mobileMember {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/login_04.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .identifyingCode {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/login_14.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    .eml {
+        display: inline-block;
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-top: -2px;
+        margin-right: 0.1rem;
+        background: url(../images/login/login_17.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        /*border: 1px solid red;*/
+    }
+
+    /*协议*/
+    .popUpContent {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 2rem 20px;
+        background: #fff;
+        z-index: 999;
+        height: 100%;
+    }
+
+    .popUpClose {
+        float: right;
+    }
+    .radioBox{
+        width: 100%;
+    }
+    .LookThat{
+        display: inline-block;
+    }
+    .LookThat > span{
+        color:#3e9795;
+    }
+
+    @media screen and (max-width: 768px) {
+        /*银行卡*/
+        .BankCardIcon1 div:last-child>label{
+            width:100%!important;
+        }
+        .BankCardIcon1 div:nth-child(2){
+            width: 100%!important;
+            height:100%!important;
+        }
+        .contraryIcon div:nth-child(2){
+            width: 100%!important;
+            height:100%!important;
+        }
+
+
+
+
+
+
+        .form-item .field {
+            height: 30px;
+            line-height: 30px;
+            width: 70% !important;
+
+        }
+        .froutIdentity>div>label{
+            width: 100%!important;
+        }
+
+
+
+        .webuploader-pick
+        {
+            width: 100%!important;
+            height: 100%!important;
+        }
+
+        .form-item .identityIt {
+            width: 100% !important;
+        }
+
+        .form-item i {
+            /*margin-top: -0.2rem;*/
+            margin-right: 10px;
+            width: 0.9rem;
+            height: 1rem;
+        }
+
+        .btn-phonecode {
+            height: 50px;
+            background-color: #fff;
+            border-left: 1px solid #e1e1e1;
+        }
+
+        .register_A {
+            margin: 0 18px;
+        }
+
+        .register_A > button {
+            width: 90%;
+            display: inherit;
+            margin: auto;
+        }
+
+        .form-item .close-btn {
+            top: 5px;
+        }
+
+        .form-item .i-status {
+            right: 30px;
+            top: 10px;
+
+        }
+
+        .portraitIcon {
+            margin-top: 2rem;
+        }
+
+        .register_B {
+            margin: 30px 13px;
+        }
+
+        .verifyBox {
+
+        }
+
+        .btn-register {
+            background-color: #007673;
+            box-shadow: 0 2px 12px #fff;
+            margin: 2rem auto;
+
+        }
+
+        #register-form-reverse {
+            width: 90%;
+            margin: auto;
+        }
+
+        /*优惠顾客资料*/
+        #register-form2 {
+            padding: 0 20px;
+        }
+
+        .UpBankCard {
+            position: relative;
+            padding: 0 20px;
+
+        }
+
+        .PhotographCion {
+            display: inline-block;
+            width: 0.9rem !important;
+            height: 0.9rem !important;
+            background: url(../images/login_01/camera_03.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin-right: 0.1rem !important;
+            margin-top: 0 !important;
+        }
+
+        .BankCardIcon {
+            display: inline-block;
+            width: 5rem !important;
+            height: 3.1rem !important;
+            background: url(../images/login_01/bankCard_07.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+            margin-left: 4rem !important;
+            margin-top: 1rem !important;
+            margin-bottom: 1rem !important;
+        }
+
+        #bankimg {
+            position: absolute;
+            width: 5rem !important;
+            height: 3.1rem !important;
+            border: 1px solid blue;
+            top: 2.1rem;
+            left: 5rem;
+            opacity: 0;
+        }
+
+        .form-item label {
+            width: 27% !important;
+            height: 30px;
+            line-height: 30px;
+        }
+
+        .radioBox > span {
+            color: #3e9795;
+        }
+
+        .radioBox {
+            display: inline-block;
+            margin-top: 0.2rem;
+        }
+
+        .ItRegister {
+            padding: 0 20px;
+        }
+        .ItRegister .input-tip {
+            position: relative;
+            z-index: 9;
+        }
+        .ItRegister .input-tip span{
+            background-color: #fff;
+        }
+
+        .ItRegister > div > i:first-child {
+            margin-right: 10px;
+
+        }
+
+        .ItRegister > div > i:last-child {
+            margin-right: 0px;
+            top: 10px;
+
+        }
+
+        .ItRegister .field {
+            width: 78% !important;
+            background-color: #fff;
+        }
+
+        /*设置密码*/
+        .pas label {
+            width: 23% !important;
+        }
+
+        #register-form3 {
+            padding: 0 20px;
+        }
+
+        .clear-btn {
+            right: 5px !important;
+            top: 6px !important;
+        }
+
+        /*成功*/
+        .informationBox {
+            padding-right: 20px;
+            text-align: center;
+
+        }
+
+        .informationBox > h3 {
+            color: #000;
+
+        }
+
+        .informationBox i {
+            display: inline-block;
+            width: 1.1rem;
+            height: 1.1rem;
+            margin-top: -2px;
+            margin-right: 0.1rem;
+            background: url(../images/login_01/correct_29.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+        }
+
+        .inNameBox {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .InNume {
+            color: #000;
+            height: 30px;
+            font-size: 16px;
+        }
+
+        .InNume > span {
+            color: #3e9795;
+        }
+
+        .QRCodeIcon {
+            display: block;
+            width: 100px;
+            height: 100px;
+            margin: 30px auto 10px auto;
+            overflow: hidden;
+        }
+
+        .QRCodeIcon > img {
+            width: 100%;
+            height: 100%;
+        }
+
+        #register-form4 {
+            padding: 0 20px;
+        }
+
+        .froutIdentity {
+            height: 8.6rem;
+
+        }
+
+    }
+
+    @media screen and (max-width: 425px) {
+        .froutIdentity {
+            padding: 0;
+        }
+    }
+
+    @media screen and (max-width: 321px) {
+        .form-item label {
+            width: 32% !important;
+        }
+
+        .form-item .field {
+            width: 66% !important;
+        }
+
+        .form-item .identityIt {
+            width: 100% !important;
+        }
+
+
+        /*设置密码*/
+        .pas label {
+
+            width: 27% !important;
+        }
+    }
+
+    .container_b, .recruitBox, .recruitBox_b, .membership, .setPassword, .registerSucceed {
+        display: none;
+    }
+
+    /*pc端*/
+    .pcRegisterBox {
+
+    }
+
+    .pcRrStop {
+        text-align: center;
+    }
+
+    .Rr {
+        display: inline-block;
+
+    }
+
+    .RrL {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .RrLNumber {
+        display: inline-block;
+        width: 22px;
+        height: 22px;
+        line-height: 22px;
+        margin: 10px 0;
+        text-align: center;
+        border-radius: 15px;
+        background-color: #fff;
+        color: #777;
+        border: 1px solid #777;
+    }
+
+    .RrL_p {
+        color: #04736d;
+        font-size: 14px;
+
+    }
+
+    .RrLFirst {
+        color: #fff !important;
+        background-color: #04736d !important;
+    }
+
+    .RrL_pDefault {
+        color: #777;
+    }
+
+    .innerWire {
+        position: relative;
+        right: -40px;
+        display: inline-block;
+        color: #bebebe;
+        vertical-align: top;
+        margin-top: 5px;
+        font-size: 19px;
+        letter-spacing: 3px;
+    }
+
+    .IrSpan {
+        color: #bebebe;
+    }
+
+    .firstStep {
+        margin-left: -73px;
+    }
+
+    /*1*/
+    .pcStCont {
+        margin-top: 40px;
+    }
+
+    .pcStCont > p {
+        font-size: 18px;
+        line-height: 50px;
+        color: #000;
+    }
+
+    .pcFront {
+        display: inline-block;
+        text-align: center;
+        margin-right: 60px;
+        margin-top: 20px;
+    }
+
+    .ItIdentity {
+        position: relative;
+        width: 126px;
+        height: 88px;
+    }
+
+    .pcFront > p {
+        line-height: 30px;
+    }
+
+    .PCIySdConter {
+        height: 190PX;
+    }
+
+    .PCIySdConter li > p {
+        margin-top: 20px;
+    }
+
+    .PCIySdTopR {
+        color: #04736d;
+    }
+
+    .PCIySdTopR > i {
+        display: inline-block;
+        width: 0.75rem;
+        height: 0.75rem;
+        margin-top: -0.2rem;
+        margin-right: 0.1rem;
+        background: url(../images/login_01/warning_09_10.jpg) no-repeat center;
+        background-size: contain;
+        vertical-align: middle;
+
+    }
+
+    .PCcorrect_p {
+        color: #000;
+    }
+
+    .PCcorrect_p > i {
+        display: inline-block;
+        width: 0.6rem;
+        height: 1rem;
+        margin-top: -0.2rem;
+        margin-right: 0.2rem;
+        background: url(../images/login_01/correct_28.jpg) no-repeat center;
+        background-size: contain;
+        vertical-align: bottom;
+    }
+
+    .btn-PCIdentity {
+        display: block;
+        width: 95%;
+        height: 54px;
+        margin: 40px auto;
+        color: #fff;
+        background: #017572;
+        border: 0;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .PCIdentity_p {
+        font-size: 16px;
+        line-height: 30px;
+        color: #000;
+    }
+
+    .PCItIdentity {
+        /*display: none;*/
+    }
+
+
+    @media screen and (min-width: 768px) {
+        .form-item .field {
+            height: 34px;
+            line-height: 34px;
+            border: 1px solid #e8e8e8;
+            border-radius: 5px;
+            width: 308px;
+            padding-left: 10px;
+
+        }
+        .PCidentityIt-a{
+            display: inline-block;
+            width: 126px;
+            height: 88px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor:hand;
+        }
+        .PCidentityIt-b{
+            display: inline-block;
+            width: 126px;
+            height: 88px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor:hand;
+        }
+        .form-item .i-status {
+            top:10px;
+        }
+        .form-item label {
+            height: 35px;
+            line-height: 35px;
+            text-align: right;
+            padding-right: 10px;
+            padding-left: 0px;
+            color: #000;
+
+        }
+
+        .IyStandard {
+            margin-top: 130px;
+        }
+
+        .form-item {
+            border: none;
+        }
+
+        .reg-form {
+            width: 70%;
+            display: block;
+            margin: auto;
+        }
+
+        .form-item .re_mobile {
+            width: 200px;
+            vertical-align: top;
+        }
+
+        .btn-phonecode {
+            position: unset;
+            background-color: #f6f6f6;
+            border: 1px solid #e8e8e8;
+            border-radius: 5px;
+            height: 34px;
+        }
+
+        .btn-PCData {
+            display: block;
+            width: 60%;
+            height: 54px;
+            margin: 30px auto 0 auto;
+            color: #fff;
+            background: #017572;
+            border: 0;
+            font-size: 16px;
+            outline: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .form-item .close-btn{
+            top:7px;
+        }
+        .pcdata {
+            display: none;
+        }
+
+        .BankCardIcon {
+            position: absolute;
+            left: 0;
+            display: inline-block;
+            width: 130px;
+            height: 90px;
+            /*border: 1px solid red;*/
+            background: url(../images/login_01/bankCard_07.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            vertical-align: middle;
+        /*    margin-left: 4rem!important;
+        margin-top:1rem!important;*/
+        margin-bottom: 1rem !important;
+    }
+
+    .form-item .PCBankIt {
+        position: relative;
+        width: 130px;
+        height: 90px;
+        opacity: 0;
+    }
+
+    .UpBankCard > p {
+        line-height: 40px;
+        color: #000;
+    }
+
+    .input-tip {
+        line-height: 20px;
+        /*margin-left: 110px;*/
+    }
+
+    #form-item1 {
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .register_B {
+        margin-top: 30px;
+    }
+
+    .btn-register {
+        display: block;
+        width: 100%;
+        height: 35px;
+        margin: 30px auto 0 auto;
+        color: #fff;
+        background: #017572;
+        border: 0;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .pcClientData {
+        display: none;
+    }
+
+    .PCPassword {
+        margin-top: 70px;
+    }
+
+    .pcSetpPassword {
+        display: none;
+    }
+
+    .informationBox > h3 {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .informationBox i {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        margin-top: -2px;
+        margin-right: 15px;
+        background: url(../images/login_01/correct_29.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+    }
+    .header .logo-title{
+        margin-left: -5px;
+        margin-top: 44px;
+    }
+
+
+    .inNameBox {
+
+        display: inline-block;
+        text-align: left;
+    }
+
+    .InNume {
+        color: #000;
+        height: 35px;
+        line-height: 35px;
+        font-size: 18px;
+    }
+
+    .InNume > span {
+        color: #3e9795;
+    }
+
+    .QRCodeIcon {
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 40px auto 10px auto;
+        overflow: hidden;
+    }
+
+    .QRCodeIcon > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hint {
+        font-size: 12px;
+    }
+
+    .informationBox {
+        text-align: center;
+    }
+
+    .btn-PCsucceed {
+        display: block;
+        width: 100%;
+        height: 54px;
+        margin: 40px auto;
+        color: #fff;
+        background: #017572;
+        border: 0;
+        font-size: 16px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+    .PCsucceed {
+        display: none;
+    }
+
+    .header .logo-title {
+        font-size: 24px;
+        font-weight: 500;
+
+        border: none;
+    }
+
+    .logo-title > p {
+        color: #000;
+    }
+    .portraitIcon{
+        display: none;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .firstStep {
+        margin-left: -85px;
+    }
+
+    .innerWire {
+        right: -48px;
+    }
+
+    .pcRegisterBox {
+        padding-left: 20px;
+    }
+
+    .ItRegister .field {
+        width: 57% !important;
+    }
+
+    .btn-phonecode {
+        position: unset;
+    }
+
+    .form-item .re_mobile {
+        width: 36% !important;
+    }
+
+
+    #bankimg {
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+
+    #form-item1 {
+        margin-bottom: 40px;
+    }
+
+    .btn-register {
+        box-shadow: 0 2px 12px #fff;
+    }
+}
+
+

@@ -1,0 +1,44 @@
+@media screen and (max-width: 768px){
+	.wap-wrap{
+		margin: 0 auto;
+    	width: 90%;
+	}
+	.app-module{
+		display:block !important;
+	}
+	.form-item i{
+		display:inline-block;
+		vertical-align:middle;
+		width:1.2rem;
+		height:1.2rem;
+	}
+	.form-item i.icons-phone{
+		background:url(../images/login/login_04.png) no-repeat center;
+		background-size:contain;
+	}
+	.form-item i.icons-code{
+		background:url(../images/login/login_14.png) no-repeat center;
+		background-size:contain;
+	}
+	.form-item i.icons-email{
+		background:url(../images/login/login_17.png) no-repeat center;
+		background-size:contain;
+	}
+	.step-setPassword,.step-apply-success{
+		display:none;
+	}
+}
+/*.app-module{display: none;}*/
+.agreements{
+	margin-left:110px;
+}
+/*.pcdatas{
+	display:none;
+}*/
+.progress-step.active .innerWire p,.progress-step.active .RrL_pDefault{
+	color:#04736d !important;
+}
+.progress-step.active .RrLNumber{
+	background-color:#04736d !important;
+	color:#fff;
+}

@@ -1,0 +1,235 @@
+@charset "utf-8";
+.portraitIcon {
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.portraitIcon > img {
+    width: 100%;
+    height: 100%;
+}
+
+.form .item .name-label {
+    background: #fff url(../images/login/login_04.png) no-repeat center;
+    background-size: 60%;
+    background-position: 10px 10px;
+}
+
+.form .item .pwd-label {
+    background: #fff url(../images/login/login_06.png) no-repeat center;
+    background-size: 60%;
+    background-position: 10px 10px;
+
+}
+
+.register-btn {
+    margin: 30px auto 0;
+    height: 40px;
+    position: relative;
+}
+
+.register-btn > a {
+    background: #fff;
+    box-shadow: 0 4px 14px #fff;
+    line-height: 40px;
+    border-radius: 6px;
+    display: block;
+    width: 100%;
+    color: #666;
+    border: 1px solid #777;
+    font-size: 20px;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.login-cont {
+    background: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.bdImg {
+    position: absolute;
+    width: 2000px;
+    height: 605px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.login-form .register-error{
+    display: none!important;
+
+}
+/*弹窗*/
+.btn{
+    position: absolute;
+    top:500px;
+    left:50%;
+    padding:40px;
+    margin:30%;
+}
+.timeSelectBox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom:0;
+    width: 100vw;
+    background-color: #00000030;
+    text-align: center;
+    z-index: 9;
+}
+.TeStSon{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    width: 365px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-bottom:2%;
+}
+.TeStSon>p{
+    margin: 0px;
+    display: block;
+    line-height: 30px;
+    padding:11% 5%;
+    color: #000;
+    font-size: 20px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.TeStSon>button{
+    background: #017572;
+    box-shadow: 0 4px 14px #fff;
+    border-radius: 6px;
+    padding-bottom: 2px;
+    display: inline-block;
+    width: 75%;
+    line-height: 40px;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    /*margin-top: 20px;*/
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+
+/**/
+@media screen and (min-width: 770px) {
+    .portraitIcon {
+        display: none;
+    }
+
+    .item > label {
+        display: none;
+    }
+
+    .form .itxt {
+        padding: 0;
+    }
+
+    .form .item-fore3 {
+        height: 20px;
+        margin-top: -10px;
+    }
+    .TeStSon {
+        top: 35%;
+    }
+    .login-form .login-box .login-btn .btn-img {
+        background: #017572;
+        box-shadow: 0 4px 14px #fff;
+        border-radius: 6px;
+        padding-bottom: 2px;
+    }
+
+    .login-form .login-tab a.checked {
+        text-decoration: none;
+        margin-top: 13px;
+        display: inline-block;
+        border: none;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, 0%);
+    }
+
+    .register-btn {
+        display: none;
+    }
+
+    .titlea {
+        display: inline-block;
+        vertical-align: top;
+        color:#000;
+    }
+
+    .coagent > ul {
+        display: inline-block !important;
+    }
+.logoIcon{
+    height:  50px;
+    margin: 5px;
+}
+    #logo b {
+        font-weight:500;
+        border:none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wap-show {
+        text-align: right;
+        font-size: 0.7rem;
+        margin-top: -0.8rem;
+    }
+    .coagent{
+        display: none!important;
+    }
+    .bdImg{
+        display: none;
+    }
+
+    .wap-show a {
+        margin: 0 1%;
+        color: #666;
+    }
+
+    .login-form .login-box .login-btn .btn-img {
+        background: #017572;
+        box-shadow: 0 4px 14px #fff;
+
+    }
+    /*弹窗*/
+    .TeStSon {
+        top: 51%;
+        width: 283px;
+        height: 180px;
+    }
+    .TeStSon>p {
+        height:95px;
+            font-size: 17px;
+    }
+    .TeStSon>button {
+        font-size: 17px;
+    }
+
+}
+
+@media only screen and (min-width: 770px) and (max-width: 1024px) {
+    .header {
+        display: block;
+    }
+
+}

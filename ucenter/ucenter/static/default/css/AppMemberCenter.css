@@ -1,0 +1,993 @@
+@charset "utf-8";
+.webuploader-element-invisible， .businessName {
+    display: none;
+}
+
+.webuploader-element-invisible, .QRCodeHint, .businessName, .businessBB {
+    display: none !important;
+}
+
+.appAddtext, .appSubmit {
+    display: none !important;
+}
+
+.timeSelectBox, .appShow {
+    display: none;
+}
+
+.appPasswd > dl > dt {
+    width: 30% !important;
+}
+
+.appPasswd > dl > dd {
+    margin-right: 0 !important;
+}
+
+.cropper-view-box {
+    width: auto !important;
+}
+
+.appShow {
+    display: inline-block;
+}
+
+/*屏幕小于768px*/
+
+/*新增元素默认隐藏*/
+.AppMemberHd, .arrowsL {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .webuploader-element-invisible {
+        opacity: 0;
+        display: inline-block !important;
+    }
+
+    .bbuyer_head, .left_1 {
+        display: none;
+    }
+
+    .tabmenu {
+        display: block;
+        margin-top: -2rem;
+    }
+
+    .AppMemberHd {
+        display: block;
+        background: #fff;
+        height: 2rem;
+        position: fixed;
+        z-index: 8;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: auto;
+        padding: 0 !important;
+        /*border-bottom: solid 1px #e7e7e7;*/
+
+    }
+
+    .arrowsR {
+        width: 100%;
+        /*padding-top: 0.9rem!important;*/
+    }
+
+    .arrowsR > i {
+        float: left;
+        /*margin-left: 10px;*/
+        margin-top: 0.1rem;
+        display: inline-block;
+        width: 0.409rem;
+        height: 0.75rem;
+        background: url(../images/login/personal01.png) no-repeat center;
+        background-size: cover;
+    }
+    .arrowsR > a >i {
+        float: left;
+        margin-left: 10px;
+        margin-top: 0.1rem;
+        display: inline-block;
+        width: 0.409rem;
+        height: 0.75rem;
+        background: url(../images/login/personal01.png) no-repeat center;
+        background-size: cover;
+    }
+
+    .member_infor_content {
+        padding: 0;
+        background-color: #f5f5f5;
+    }
+
+    .Colr {
+        background-color: transparent !important;;
+    }
+
+    .AppMemberHd > dd > p {
+        /*display: inline-block;*/
+        font-size: 0.818rem;
+        /*line-height: 1.3rem;*/
+        line-height: 0.7rem;
+        height: 2rem;
+        color: #000;
+
+    }
+    .AppMemberHd>dt{
+        padding-left:10px;
+    }
+    .AppMemberHd > dd {
+        width: 100% !important;
+        margin-top: -2rem !important;
+        height: 2rem;
+        text-align: center !important;
+    }
+    .newMrHd{
+        height: 2.6rem;
+    }
+    .newMrHd > dd {
+        margin-top:2.3rem;
+    }
+    .AppMemberBm {
+        height: 3rem;
+        margin-top: 1.7rem !important;
+
+    }
+
+    .personalData dl {
+        display: block;
+        border-bottom: dotted 1px #e1e1e1;
+    }
+
+    .user-avatar {
+        top: 0.1rem;
+        float: right;
+    }
+    body,div{
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color:transparent;
+
+    }
+    .newUrAr >div{
+        top: 0.1rem;
+        float: right;
+        height: 2.3rem;
+        margin-top: -0.4rem;
+        overflow: hidden;
+    }
+
+    .arrowsL {
+        /*float: left;*/
+        margin-right: 10px;
+        margin-top: 0.6rem;
+        display: inline-block;
+        width: 0.409rem;
+        height: 0.75rem;
+        background: url(../images/login/personal01.png) no-repeat center;
+        background-size: cover;
+        transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+    }
+
+    .personalCenter span img {
+        max-width: 37px !important;
+        max-height: 37px !important;
+        border-radius: 50%;
+    }
+
+    .icontitle {
+        line-height: 2rem !important;
+    }
+
+    .AppBusinessCard {
+        height: 2rem;
+        border-top: 0.3rem solid #eee;
+        border-bottom: 0.3rem solid #eee !important;
+    }
+
+    .ncm-default-form dl dd {
+        width: 67% !important;
+        float: right;
+        text-align: right;
+line-height: 1.4rem;
+    }
+
+    .ncm-default-form dl dt {
+        width: 32%;
+        text-align: left;
+        line-height: 1rem;
+        padding-left: 10px;
+        box-sizing: border-box;
+        /*background-color: #d0d0d0;*/
+    }
+
+    .AppBusinessCard > dd {
+        position: relative;
+        margin-top: -0.3rem !important;
+        /*background-color: #d2dcf8;*/
+    }
+
+    .arrowsBsCd {
+        position: absolute;
+        right: 0;
+        top: 0.4rem;
+
+    }
+
+    .examine {
+        margin-right: 30px;
+    }
+
+    .AppMemberName {
+        height: 2rem;
+    }
+
+    .w400 {
+        margin-top: -0.2rem;
+        width: 100% !important;
+    }
+
+    .bbc_bg {
+        margin-top: -0.2rem;
+        margin-right: 10px;
+    }
+
+    .Ml10 {
+        padding-right: 10px !important;
+        box-sizing: border-box;
+        line-height: 1rem !important;
+    }
+
+    .H2m {
+        height: 2rem;
+    }
+
+    .appGender {
+        border-bottom: 0.3rem solid #eee !important;
+    }
+
+    .message {
+        width: 50% !important;
+    }
+
+    .phoneL {
+        position: relative;
+        top: 0.1rem;
+        margin: 0 0 0.2rem 0;
+    }
+
+    .user-avatar span {
+        width: 38px !important;
+    }
+
+    /*遮盖*/
+    .timeSelectBox {
+        /*display: none;*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        /*    height: 100%;*/
+        /*background-color: #00000030;*/
+        background-color: #0a0a0a;
+        text-align: center;
+        z-index: 9;
+    }
+
+    .HeadModifyBox {
+        border: 1px solid;
+        position: absolute;
+        width: 100%;
+        bottom: 0rem;
+        padding: 0.7rem 0.5rem;
+        box-sizing: border-box;
+    }
+
+    .HdMyTop {
+        position: relative;
+        width: 100%;
+        /*border:1px solid red;*/
+        background-color: #fff;
+        text-align: center;
+        border-radius: 5px;
+        margin-top: 0.5rem;
+    }
+
+    .HdMyTop > p {
+        font-size: 0.6rem;
+        height: 2rem;
+        line-height: 2rem;
+        display: block;
+        width: 100%;
+        font-weight: 600;
+        color: #000;
+
+    }
+
+    .HdMyTop > p:first-child {
+        border-bottom: 1px solid #d0d0d0;
+    }
+
+    .HdMyBm {
+
+    }
+
+    .HdMyBm > p {
+        color: #333;
+
+        border-bottom: none !important;
+    }
+
+    .photoAlbum {
+        border: 1px solid red;
+        float: left;
+        width: 100%;
+        height: 2rem;
+        margin-top: -2rem;
+    }
+
+    .photograph {
+        border: 1px solid blue;
+        float: left;
+        width: 100%;
+        height: 2rem;
+        margin-top: -2rem;
+    }
+
+    .webuploader-element-invisible {
+        border: 1px solid red;
+        position: absolute;
+        z-index: 9999;
+        top: -0.7rem;
+        height: 3rem;
+    }
+
+    /*我的名片*/
+    .businessName {
+        display: inline-block;
+    }
+
+    .businessBox {
+        /*border:1px solid red;*/
+        width: auto !important;
+        margin-left: -10px;
+        float: left;
+        margin-top: 0.9rem;
+    }
+
+    .businessBT, .businessBB {
+        /*border:1px solid red;*/
+    }
+
+    .businessBox > dl > dt, .ml30 {
+        /*background-color: #d0d0d0;*/
+    }
+
+    .arL {
+        width: auto;
+        float: left;
+        margin-top: 0 !important;
+
+    }
+
+    .arL span {
+        height: auto;
+    }
+
+    .businessCard-form {
+        /*background: #e5e5e5;*/
+        height: auto;
+    }
+
+    .arL span img {
+        width: 3rem !important;
+        height: 3rem !important;
+    }
+
+    .businessBox > dl {
+        text-align: left;
+        padding: 0 !important;
+    }
+
+    .businessBox > dl > dt {
+        width: auto !important;
+        padding: 0;
+        /*background: #f0f0f0;*/
+    }
+
+    .businessBox > dl > dd {
+        width: auto !important;
+        padding: 0;
+        /*background: #f0f0f0;*/
+        line-height: 1rem;
+        float: none !important;
+    }
+
+    .visitingCardBox {
+
+        margin-left: 0.4rem !important;
+        background: #fff;
+        margin-right: 0.4rem !important;
+        border: none;
+    }
+
+    .vgCardBx_a {
+        margin-top: 3.9rem !important;
+        text-emphasis: lightgrey;
+    }
+
+    .vgCardBx_a > div {
+        text-align: center;
+        margin-left: 11.1rem !important;
+        margin-top: 5px;
+        display: inline-block;
+
+    }
+
+    .businessCard-form .vgCardBx_a {
+        padding-top: 0 !important;
+        padding-left: 10px !important;
+    }
+
+    .apQRCodBox {
+        padding-top: 0 !important;
+
+    }
+
+    .apQRCodBox .QRCode {
+        width: 100% !important;
+        float: none;
+        text-align: center !important;
+
+    }
+
+    .apQRCodSn > div > canvas {
+        width: 12rem;
+
+    }
+
+    .busCdFm .QRCodeBox {
+        margin-top: -20px;
+    }
+
+    .businessBT dd {
+        color: #000;
+    }
+
+    .businessBT dt {
+        color: #000;
+    }
+
+    .aright {
+        background-color: #f5f5f5;
+    }
+
+    .QRCodeHint {
+        display: block !important;
+        float: none !important;
+        text-align: center;
+        height: 0.6rem;
+    }
+
+    .QRCodeHint > p {
+        color: #666;
+        font-size: 0.6rem;
+        line-height: 1rem;
+    }
+
+    /*邮箱验证*/
+    .appMailboxVerify {
+        border: 1px solid red;
+    }
+
+    .appcurrent {
+        border: 1px solid red;
+    }
+
+    .appMlSp {
+        display: none;
+    }
+
+    .EailverifyFm {
+        margin-top: 2rem;
+        /*background-color: #fff;*/
+
+    }
+
+    .EailverifyFm dl {
+        /*border:1px solid;*/
+        padding-left: 10px !important;
+        box-sizing: border-box;
+        border-bottom: 1px solid #eee !important;
+    }
+
+    .EailverifyFm .foot {
+        background-color: #f5f5f5;
+        border: none !important;
+    }
+
+    body {
+        background-color: #f5f5f5;
+    }
+
+    .EailverifyFm > dl > dt, .email > dl > dt {
+        /*background-color: #d0d0d0;*/
+        text-align: left !important;
+
+    }
+
+    .email {
+        /*margin-right:10px;*/
+        background-color: #fff;
+    }
+
+    .EailverifyFm > dl > dd, .email > dl > dd {
+
+        /*background-color: #e5e5e5;*/
+    }
+
+    .EailverifyFm select {
+        float: right !important;
+        margin-top: 0.1rem;
+
+    }
+
+    .appIdentify_typeDl > dd .send {
+        vertical-align: top;
+        margin-left: 0;
+        margin-top: 0;
+        background: #f0f0f0;
+        border: none !important;
+    }
+
+    .EailverifyFm > dl > dt > em {
+        display: none;
+    }
+
+    .foot .pcSubmit {
+        display: none !important;
+    }
+
+    .form-style .appSubmit {
+        display: inline-block;
+        /*padding: 0 30%!important;*/
+        width: 90%;
+        margin-left: -32%;
+        background-color: #017572 !important;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+        min-width: 100px;
+        height: 36px;
+        font-weight: normal;
+    }
+
+    .form-style form .submitDl {
+
+        /*border: 1px solid!important;*/
+        width: 100% !important;
+        text-align: center;
+
+    }
+
+    .appImg-code {
+        float: right;
+        height: 30px;
+
+    }
+
+    .mailImgCode {
+        margin-top: 17px;
+        width: auto !important;
+    }
+
+    .appIdentify_typeDl .send, .appClearfix > dd .btn-send {
+        float: right;
+        margin-right: 10px;
+        border-radius: 4px;
+        color: #000 !important;
+    }
+
+    .form-style .appText {
+        min-width: 100px;
+        width: 45% !important;
+        border: none !important;
+    }
+
+    .appAddtext {
+        display: inline-block !important;
+    }
+
+    .EailverifyFm > dl > dt, .email > dl > dt, .email > dl > dt > span {
+        color: #000;
+    }
+
+    .EailverifyFm > dl {
+        /*border:1px solid red;*/
+        background-color: #fff;
+    }
+
+    .pcDtPlaceholder {
+        display: none;
+    }
+
+    .appSubmit {
+        display: inline-block !important;
+    }
+
+    .form-style-layout {
+        padding: 0 !important;
+    }
+
+    .appMobile {
+        margin: auto !important;
+    }
+
+    /*邮箱修改*/
+    .appAddtext {
+        color: #000 !important;
+    }
+
+    .Appbind-area dl dt {
+        color: #000 !important;
+        padding: 15px 1% 15px 0 !important;
+    }
+
+    .EailverifyBox {
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .form-style form .appddR {
+        width: 83% !important;
+
+    }
+
+    .form-style form .appddR > input {
+        margin: 17px 0;
+        font-size: 16px;
+    }
+
+    .pcSubmit {
+        display: none !important;
+    }
+
+    .fmSeMail form dl {
+        /*.EailverifyBox dl{*/
+        border-bottom: 1px solid #eee !important;
+        margin-bottom: 0 !important;
+        background-color: #fff;
+    }
+
+    .EailverifyBox > dl > dd > input {
+        border: none !important;
+    }
+
+    .appMail {
+        margin-top: 55px !important;
+    }
+
+    .bort1, .statistics_code {
+        display: none;
+    }
+
+    .email > dl > dd {
+        /*padding: 15px 1% 15px 10px!important;*/
+        box-sizing: border-box;
+    }
+
+    .appddR .wid-reset {
+        width: 128px !important;
+    }
+
+    .appIdentify_typeDl .send, .appClearfix > dd .btn-send {
+        padding: 0 0.3rem;
+    }
+
+    /*修改成功*/
+    /*弹窗*/
+    .timeSelectBox {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        /* height: 100%; */
+        background-color: #0000006e;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .revocationAlert {
+        width: 85%;
+        background-color: #fff;
+        position: relative;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        padding: 15px 0px 30px;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 3px;
+        border-radius: 10px;
+    }
+
+    .revocationAlert > p {
+        display: inline-block;
+        width: 75%;
+        line-height: 1.5rem;
+        font-size: 0.68rem;
+
+    }
+
+    .RnBnBox {
+        margin-top: 12px;
+    }
+
+    .RnBnBox > button:last-child {
+        margin-right: 0;
+    }
+
+    .RnBnBox > button {
+        font-size: 0.7rem;
+        padding: 0.5rem 0;
+        width: 80%;
+        background-color: #017572;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        display: inline-block;
+    }
+
+    .RnCancelBn {
+        background-color: #d0d0d0 !important;
+    }
+
+    .SsInBox {
+        width: 3rem;
+        height: 3rem;
+        margin: 1rem auto;
+    }
+
+    .SsInBox > img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .RnAtH {
+        font-size: 0.8rem;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .RnAtP {
+        font-size: 0.7rem;
+    }
+
+    .RnAtP > span {
+        color: red;
+    }
+
+    /*修改密码*/
+    .appPasswd > dl {
+        background-color: #fff;
+    }
+
+    .appPasswd .foot {
+        background-color: transparent !important;
+    }
+
+    .appAlterFm {
+        margin-top: 2.1rem;
+    }
+
+    .appPasswd > dl {
+        border-bottom: 1px solid #eee !important;
+    }
+
+    .appPasswd > dl > dt > em {
+        display: none;
+    }
+
+    .appPasswd > dl > dt {
+        text-align: left !important;
+        width: 24% !important;
+        padding-left: 10px !important;
+        box-sizing: border-box;
+    }
+
+    .appPasswd > dl > dd {
+        width: 73% !important;
+
+    }
+
+    .appPasswd > dl > dd > input {
+        border: none !important;
+    }
+
+    .appPasswd > dl > dd > span {
+        left: auto !important;
+        right: 10px;
+    }
+
+    .alterFm {
+        width: 100%;
+    }
+
+    .appFoot {
+        width: 100% !important;
+        display: block;
+        border: 1px solid;
+        text-align: center;
+    }
+
+    /*银行卡信息修改*/
+    .formcs {
+        width: 100%;
+    }
+
+    .appBankForm {
+        margin-top: 2rem;
+    }
+
+    .appBankForm > form > dl {
+        background-color: #fff;
+        border-bottom: 1px solid #eee;
+    }
+
+    .appBankForm > form .BankCardBox {
+        text-align: left;
+        width: 100% !important;
+        padding-top: 0.4rem;
+        padding-bottom: 1rem;
+    }
+
+    .appBankForm > form .BankCardBox > p {
+        color: #000;
+        margin-left: 10px;
+        margin-bottom: 0.5rem;
+    }
+
+    .pcShow {
+        display: none;
+    }
+
+    .appBankForm .appBkCdIn {
+        width: 200px !important;
+        height: 115px !important;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        -webkit-transform: translate(-50%, 0%);
+    }
+
+    .appBankForm dl dt {
+        color: #000;
+        float: left;
+        line-height: 1.6rem;
+    }
+
+    .appBankForm dl dd {
+        color: #000;
+        padding-right: 10px;
+        box-sizing: border-box;
+    }
+
+    .appBankForm dl dd span input, .appBankForm dl dd span select {
+        width: 100%;
+        border: none;
+
+    }
+
+    .partTwo {
+        margin-top: 0.5rem !important;
+    }
+
+    .appBankForm dl dd .w400 {
+        margin-top: 0 !important;
+    }
+
+    .appBankForm dl dd label {
+        width: 90%;
+    }
+
+    .appBankForm .bottom {
+        background-color: transparent;
+
+    }
+
+    .appBankForm dl .AppBnBox {
+        width: 100% !important;
+        display: block;
+        padding-right: 0 !important;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .bottom > dd input {
+        margin-left: 0 !important;
+        width: 100%;
+    }
+
+    .appDt {
+        display: none !important;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .vgCardBx_a > div {
+        margin-left: 3.1rem !important;
+    }
+
+    .form-style .appText {
+        padding: 0 !important;
+    }
+
+    .form-style form .appddR {
+        width: 67% !important;
+    }
+
+    .form-style form .appddL {
+        margin-right: 0;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .vgCardBx_a > div {
+        margin-left: 2rem !important;
+    }
+
+    .EailverifyFm > dl > dt {
+        width: 26% !important;
+    }
+
+    .EailverifyFm .appIdentify_typeDl > dd {
+        width: 72% !important;
+    }
+
+    .form-style .appText {
+        width: 50%;
+    }
+
+    .form-style form .appddL {
+        margin-right: 0;
+        width: 84px !important;
+    }
+
+    .appClearfix > dd .btn-send {
+        margin-right: 0px;
+        width: 94px;
+
+    }
+
+    .appImg-code {
+        float: right;
+        width: 87px;
+    }
+
+    .appddR .wid-reset {
+        width: auto !important;
+    }
+
+    .form-style form .appddR > input {
+        font-size: 12px;
+    }
+
+    .appBankForm dl dt {
+        width: 31% !important;
+    }
+
+}
+
+
+
